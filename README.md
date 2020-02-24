@@ -68,9 +68,13 @@ Steps: </br>
 
 ### Results
 
-Baseline model result - 
+![6](https://user-images.githubusercontent.com/54965123/75124052-9db36500-567a-11ea-8b34-1e0d506dbbc7.png)
 
-## Section 5: Understanding Causal Inference
+## Section 5: Fairness-Bias Check using SHAP values
+
+![7](https://user-images.githubusercontent.com/54965123/75124053-9e4bfb80-567a-11ea-9d27-51be063fa67d.png)
+
+## Section 6: Understanding Causal Inference
 
 ### Chi square
 
@@ -82,7 +86,7 @@ The chart above visualizes our sample data. If there is truly no effect of the c
 **chi-square and p-value**
 The chisquared value = 0.00824, p-value = ~1 and degrees of freedom = 2. With a p-value =1 , we are not able to reject the null hypothesis. This means that the campaign does not effect the number of deposits. Note that these numbers vary every time since we do not set a random split. In fact, re-running the code should yield wildly different answers. Therefore, we can expect that, depending on the split, the campaing to have or not to have an effect. As mentionned prior, the ideal scenario would be to use this dataset as past data and use data after a new campaign to asses the effect.
 
-## Section 6: DoWhy: Double Machine Learning for Causal Inference
+## Section 7: DoWhy: Double Machine Learning for Causal Inference
 
 **Stratification**
 
