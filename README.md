@@ -6,7 +6,8 @@ About the dataset - Find the best strategy to improve the next marketing campaig
 
 Link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
 
-Data Description
+**Data Description**
+
 1 - Age<br/>
 2 - Job: Type of job (categorical: 'admin.','blue-collar','entrepreneur','housemaid','management','retired','self-employed','services','student','technician','unemployed','unknown')<br/>
 3 - Marital: marital status (categorical: 'divorced','married','single','unknown'; note: 'divorced' means divorced or widowed)<br/>
