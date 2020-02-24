@@ -68,6 +68,8 @@ Steps: </br>
 
 ### Results
 
+3 types groups of algorithms were explored: Boosting, Neural Networks and Automated ML.
+
 ![6](https://user-images.githubusercontent.com/54965123/75124052-9db36500-567a-11ea-8b34-1e0d506dbbc7.png)
 
 ## Section 5: Fairness-Bias Check using SHAP values
