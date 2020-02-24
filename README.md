@@ -77,7 +77,32 @@ Baseline model result -
 ![5](https://user-images.githubusercontent.com/54965123/75123862-3d6ff380-5679-11ea-81fc-49a7207a77d1.PNG)
 
 Interpretation - 
-The chart above visualizes our sample data. If there is truly no effect of the campaign by looking at the number of depsotis before it occured and after, then the data would show an even ratio split between 'deposit' and 'no deposit' for each time.
+The chart above visualizes our sample data. If there is truly no effect of the campaign by looking at the number of depsotis before it occured and after, then the data would show an even ratio split between 'deposit' and 'no deposit' for each time.</br>
 
+**chi-square and p-value**
+The chisquared value = 0.00824, p-value = ~1 and degrees of freedom = 2. With a p-value =1 , we are not able to reject the null hypothesis. This means that the campaign does not effect the number of deposits. Note that these numbers vary every time since we do not set a random split. In fact, re-running the code should yield wildly different answers. Therefore, we can expect that, depending on the split, the campaing to have or not to have an effect. As mentionned prior, the ideal scenario would be to use this dataset as past data and use data after a new campaign to asses the effect.
 
+## Section 6: DoWhy: Double Machine Learning for Causal Inference
+
+**Stratification**
+
+The hypothesis we are looking to research is whether there or not there is a causal relationship between age and weather an individual will deposit. </br>
+Looking only at AGE as a treatment variable, it seems that the causal effect of AGE is 0.001814747418610118. This would mean that for every unit increase in AGE, the probability that someone depsoits goes up by 0.18%. </br>
+While this may seem shocking for some, this is likely not realistic. There may be some non-linearity effects or we must test using another method.</br>
+
+**Regression**
+
+The hypothesis we are looking to research is whether there or not there is a causal relationship between AGE and deposit_bool. </br>
+We also look at the causal relationship of other predictors on depsoit_bool (such as "job" and "default"). </br>
+Looking at AGE as the treament variable, we see that first it is a significant treamtent variable within 10% (p < 0.094) and its effect using a linear regression model is -0.0006593246127298835. </br>
+This would imply that for every unit increase in AGE, the probability of someone depositing goes down by 0.07%. This estimate is much more realistic, as it seems ther is no age bias anymore. </br>
+Here is the causal effect of each variable on the odds of depsoiting (deposit_bool) and the associated p-value: </br>
+age = 0.001596470177772813 (p = 0.0010000000000000009)</br>
+marital = -0.08611891032763919 (p < 0.001)</br>
+balance = 0.1030394858277377 (p < 0.001)</br>
+education (tertiary) = 0.06589147843681609 (p < 0.001)</br>
+default = -0.08093474884816493 (p = 0.016)</br>
+housing = -0.17525694004024445 (p < 0.001)</br>
+loan = -0.11660829943692341 (p < 0.001) </br>
+The biggest anomaly is the causal effect of housing. "housing" denotes if someone has a housing loan. The causal effect seems that if someone does has made a housing loan, the odds of them making a deposit after a marketing campaing goes down by 17%. This seems quite steep at first but, with reason makes sense. Someone that takes a housing loan is likely to have an account and funds are a major issue. Thus, when we run the campaign, the individual does not feel inclined to deposit but rather save up (or remain in their current situtaiton. Additionally, there might be some non-linear effect that is not captured properly.</br>
 
