@@ -28,11 +28,11 @@ Link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
 
 ## Section 2: Exploratory Data Analysis (EDA)
 
-1. 
+1. Summary Statistics </br>
 
 ![1](https://user-images.githubusercontent.com/54965123/75123675-be2df000-5677-11ea-93e3-6dcc6990b97e.PNG)
 
-**Notes from Pandas Profiling**</br>
+2. Notes from Pandas Profiling</br>
 
 - 11k rows </br>
 - There are no missing values</br>
@@ -40,3 +40,12 @@ Link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
 - Some outliers in the field 'balance' </br>
 - Just one percent of the rows had a default</br>
 
+3. Just 13% of the customers took loan </br>
+
+![3](https://user-images.githubusercontent.com/54965123/75123677-bec68680-5677-11ea-86cb-fd97661fdf91.PNG)
+
+4. Just 1.5% of the data points defaulted 
+
+![2](https://user-images.githubusercontent.com/54965123/75123676-be2df000-5677-11ea-971c-3e3860ed14a4.PNG)
+
+5. 
