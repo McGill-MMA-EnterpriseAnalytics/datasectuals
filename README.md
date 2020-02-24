@@ -28,6 +28,9 @@ Link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
 
 ## Section 2: Exploratory Data Analysis (EDA)
 
+1. 
+
+![1](https://user-images.githubusercontent.com/54965123/75123675-be2df000-5677-11ea-93e3-6dcc6990b97e.PNG)
 
 **Notes from Pandas Profiling**</br>
 
