@@ -44,8 +44,10 @@ Link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
 
 ![3](https://user-images.githubusercontent.com/54965123/75123677-bec68680-5677-11ea-86cb-fd97661fdf91.PNG)
 
-4. Just 1.5% of the data points defaulted 
+4. Just 1.5% of the data points defaulted </br>
 
 ![2](https://user-images.githubusercontent.com/54965123/75123676-be2df000-5677-11ea-971c-3e3860ed14a4.PNG)
 
-5. 
+5. Those who default have low balance in their account </br>
+
+![4](https://user-images.githubusercontent.com/54965123/75123743-43b1a000-5678-11ea-84d0-b43a53f01f71.PNG)
