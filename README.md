@@ -51,3 +51,18 @@ Link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
 5. Those who default have low balance in their account </br>
 
 ![4](https://user-images.githubusercontent.com/54965123/75123743-43b1a000-5678-11ea-84d0-b43a53f01f71.PNG)
+
+## Section 3: Data Pre-processing
+
+Steps: </br>
+
+1. Create target variables </br>
+2. Drop the original target variable columns </br>
+3. Encode the columns containing 'yes' and 'no' values </br>
+4. Correlation check </br>
+5. Separate features and target </br>
+6. Standardization </br>
+7. Train and Test split </br>
+
+## Section 4: Model Building
+
