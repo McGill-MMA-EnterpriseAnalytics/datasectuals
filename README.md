@@ -80,7 +80,7 @@ Steps: </br>
 
 ![5](https://user-images.githubusercontent.com/54965123/75123862-3d6ff380-5679-11ea-81fc-49a7207a77d1.PNG)
 
-Interpretation - 
+**Interpretation -**
 The chart above visualizes our sample data. If there is truly no effect of the campaign by looking at the number of depsotis before it occured and after, then the data would show an even ratio split between 'deposit' and 'no deposit' for each time.</br>
 
 **chi-square and p-value**
