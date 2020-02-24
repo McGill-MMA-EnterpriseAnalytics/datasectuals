@@ -76,6 +76,8 @@ Steps: </br>
 
 ![7](https://user-images.githubusercontent.com/54965123/75124053-9e4bfb80-567a-11ea-9d27-51be063fa67d.png)
 
+To prepare the model for future deployment, it was necessary to perform a fairness and bias test using Shap. Results show that common bias related variables such as marital status and job, were not given high importance in our model. This means that our model is fairly unbiased and would mitigate the reinforcement of biases in a non-interpretable and unaccountable way.
+
 ## Section 6: Understanding Causal Inference
 
 ### Chi square
