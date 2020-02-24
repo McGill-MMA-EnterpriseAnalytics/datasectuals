@@ -1,6 +1,6 @@
 # Bank Marketing Campaign Predictive Modeling
 
-## Section 1: Dataset
+## Section 1: Understanding the Dataset
 
 About the dataset - Find the best strategy to improve the next marketing campaign
 
@@ -25,3 +25,15 @@ Link: https://www.kaggle.com/janiobachmann/bank-marketing-dataset
 15 - previous: number of contacts performed before this campaign and for this client (numeric)<br/>
 16 - poutcome: outcome of the previous marketing campaign (categorical: 'failure','nonexistent','success')<br/>
 17 - y - has the client subscribed a term deposit? (binary: 'yes','no')<br/>
+
+## Section 2: Exploratory Data Analysis (EDA)
+
+
+**Notes from Pandas Profiling**</br>
+
+- 11k rows </br>
+- There are no missing values</br>
+- There are no duplicate rows </br>
+- Some outliers in the field 'balance' </br>
+- Just one percent of the rows had a default</br>
+
